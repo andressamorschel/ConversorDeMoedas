@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Josefin+Sans:ital,wght@1,500&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&family=Varela+Round&display=swap');
+
+body{
+    max-width: 100%;
+    min-width: 50%;
+    background-color: burlywood;
+    margin: 0;
+}
+
+h1{
+    color: rgb(243, 240, 236);
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+}
+
+.container{
+    background-color:rgba(235, 187, 170, 0.548);
+    border-radius: 20px;
+    position:absolute;
+    height: 220px;
+    width: 520px;
+    margin-top: 50px;
+    box-shadow: 1px 1px 5px rgba(250, 246, 246, 0.767);
+    top: calc(35% - 100px);
+    left: calc(50% - 260px);
+}  
+
+.fundo{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    min-width: 50%;
+}
+
+.valor1{        
+    margin-top: 36px;
+    margin-left: 15px;
+}
+
+#buttonCalc{
+    color:rgb(241, 69, 104);
+    margin-left: 49%;
+    align-items: center;
+    padding: 3px 3px 3px 3px;
+    width: 59px;
+    box-shadow: 1px 1px 5px rgba(235, 187, 170, 0.548);  
+    align-items: center;
+    cursor: pointer;
+    font-family:'DM Sans', sans-serif;
+}
+
+
+
+input[type="number"]{
+    color:yellowgreen;
+    border-radius: 5px;
+    margin: 2px 2px 5px 7px;
+    border: 1px solid rgba(80, 80, 80, 0.863);
+    
+}
+
+.elementosCaixa{
+    color:  rgb(243, 240, 236);
+    margin-left: 30px;
+}
+
+p{
+    font-family: 'DM Sans', sans-serif;
+}
+
+#valorResultado{
+    text-align: center;
+    color: rgb(243, 240, 236);
+}
