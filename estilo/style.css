@@ -5,27 +5,34 @@ body{
     max-width: 100%;
     min-width: 50%;
     background-color: burlywood;
+    padding: 0;
     margin: 0;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
+
+
+.container{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:rgba(235, 187, 170, 0.548);
+    border-radius: 20px;
+    height: 235px;
+    width: 520px;
+    margin: auto;
+    box-shadow: 1px 1px 5px rgba(250, 246, 246, 0.767);
+}  
 
 h1{
     color: rgb(243, 240, 236);
     font-family: 'Varela Round', sans-serif;
-    text-align: center;
+    align-self: auto;
 }
-
-.container{
-    background-color:rgba(235, 187, 170, 0.548);
-    border-radius: 20px;
-    position:absolute;
-    height: 220px;
-    width: 520px;
-    margin-top: 50px;
-    box-shadow: 1px 1px 5px rgba(250, 246, 246, 0.767);
-    top: calc(35% - 100px);
-    left: calc(50% - 260px);
-}  
-
 .fundo{
     width: 100%;
     height: 100%;
@@ -40,29 +47,28 @@ h1{
 
 #buttonCalc{
     color:rgb(241, 69, 104);
-    margin-left: 49%;
-    align-items: center;
-    padding: 3px 3px 3px 3px;
-    width: 59px;
-    box-shadow: 1px 1px 5px rgba(235, 187, 170, 0.548);  
-    align-items: center;
+    padding: 3px;
+    width: 59px; 
+    justify-content: center;
     cursor: pointer;
-    font-family:'DM Sans', sans-serif;
+    border-radius: 5px;
+    border: 1px solid rgba(209, 93, 116, 0.555);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
 
 input[type="number"]{
-    color:yellowgreen;
+    color:rgb(10, 10, 9);
     border-radius: 5px;
     margin: 2px 2px 5px 7px;
     border: 1px solid rgba(80, 80, 80, 0.863);
-    
+    background-color: rgba(255, 255, 255, 0.753);;
 }
 
 .elementosCaixa{
     color:  rgb(243, 240, 236);
-    margin-left: 30px;
+    margin-left: 15px;
 }
 
 p{

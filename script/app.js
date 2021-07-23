@@ -12,5 +12,5 @@ function converterDolar(event) {
 
   let resultado = (valorEmReal.value * 5.60).toFixed(2);
   
-  document.getElementById('valorResultado').innerHTML = `Resultado: R$ ${resultado} dólares`;
+  document.getElementById('valorResultado').innerHTML = `Resultado: R$ ${resultado} reais`;
 }
